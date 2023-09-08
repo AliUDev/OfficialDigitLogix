@@ -1,0 +1,839 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src:  url("../Fonts/Fonts/Gilroy-Medium.ttf"),
+      
+  }
+  @font-face {
+    font-family: "Avenir";
+    src:  url("../Fonts/Fonts/Avenir.ttc"),
+      
+  }
+  @font-face {
+    font-family: "Gilroy-SemiBold";
+    src:  url("../Fonts/Fonts/Gilroy-SemiBold.f3ed44cd.ttf"),
+      
+  }
+
+.maxScreen{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* ------Header----------- */
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos img {
+    width: 187px;
+    height: 31.563px;
+    flex-shrink: 0;
+}
+.button_Cus a {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 78px;
+    background: #2A9DD7;
+    flex-shrink: 0;
+    padding: 20px 27px;
+}
+h2 {
+    color: #101010;
+    font-family: 'Gilroy-Medium';
+    font-size: 152.787px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.202px;
+}
+
+/* -------banner------- */
+
+.left h2 span {
+    color: #2A9DD7;
+    font-family: Playfair Display;
+    font-size: 152.787px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -3.202px;
+}
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+section.maxScreen.banner {
+    max-width: 1620px;
+}
+.experinceImage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.flexRight {
+    width: 50%;
+    margin-right: 60px;
+}
+
+.flexRight p {
+    color: #101010;
+    font-family: Avenir;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    margin-top: 100px;
+}
+.flexRight p span {
+    opacity: 0.8;
+    color: #101010;
+    font-family: Avenir;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    text-decoration-line: underline;
+}
+.left.world {
+    margin-left: 65px;
+}
+
+/* -------Services----------- */
+
+.serviceFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.items.Service {
+    width: 30%;
+    margin: 10px;
+    padding: 60px 50px;
+    border-radius: 15px;
+    background: #F5F5F5;
+    position: relative;
+}
+
+.contentt span {
+    color: #2A9DD7;
+    font-family: Gilroy-SemiBold;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contentt dd {
+    color: #101010;
+    font-family: Gilroy-SemiBold;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contentt dl {
+    color: #101010;
+    font-family: Gilroy-SemiBold;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.items.Service img {
+    position: absolute;
+    top: -50px;
+    right: 30px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* ----Slider------ */
+
+.slick-slide img {
+    display: block;
+    width: 98%;
+    border-radius: 10px;
+}
+.slideMain.porfolioSlide2.slick-initialized.slick-slider {
+    padding-top: 50px;
+}
+.slick-initialized .slick-slide {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.slideHead {
+    text-align: center;
+    width: 65%;
+    margin:  0 auto;
+    opacity: 0.8;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.slideHead h3 {
+    color: #101010;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.slideHead p {
+    color: #101010;
+    text-align: center;
+    font-family: Avenir;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 40px; 
+    margin-top: 25px;
+}
+.slideNow img.left {
+    position: absolute;
+    left: 0;
+    z-index: 99999999999999999999;
+    top: 0;
+    height: 100%;
+}
+
+.slideNow {
+    position: relative;
+}
+
+.slideNow img.right {
+    position: absolute;
+    right: 0;
+    z-index: 99999999999999999999;
+    top: 0;
+    height: 100%;
+}
+section.maxScreen.sliders {
+    max-width: 100%;
+}
+.slideHead h3 span {
+    color: #2A9DD7;
+    font-family: Playfair Display;
+    font-size: 82px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* -------Tabs---------- */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .tabcontent {
+    border: 0px;
+}
+
+.tab {
+    background: no-repeat;
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 118px;
+    border: 1px solid rgba(16, 16, 16, 0.10);
+}
+
+.tab button.active {
+    border-radius: 88px;
+    background: #2A9DD7;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 30px;
+    
+}
+
+.tab button {
+    color: #101010;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 14px 35px;
+    transition: 0.3s;
+    padding: 20px 30px;
+    border-radius: 88px;
+}
+.tab button:hover {
+    background: #2A9DD7;
+    color: #fff;
+}
+.tab button:first-child {
+    margin: 14px 14px;
+}
+
+.tab button:last-child {
+    margin: 14px 14px;
+}
+.tabcontent p {
+    color: #101010;
+    text-align: center;
+    font-family: Avenir;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 40px;
+}
+.slideHead.tabss {
+    margin-bottom: 50px;
+}
+.slideHead.tabprise {
+    opacity: 1;
+}
+
+.slideHead.tabprise a {
+    color: #FFF;
+    font-family: Relative;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 146.667% */
+    letter-spacing: -2.56px;
+    padding: 10px 35px;
+}
+
+.slideHead.tabprise a span {
+    font-size: 30px;
+    text-transform: lowercase;
+}
+
+/* -----accordion------- */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .itemAccor {
+    width: 45%;
+    margin: 15px;
+    border-bottom: 1px solid #2A9DD7;
+}
+
+.accordinsMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #2A9DD7;
+    padding: 40px 20px;
+    border-radius: 8px;
+    align-items: self-start;
+}
+
+.accordion {
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+}
+
+.active ,.accordion:hover {
+    background: #2a9dd7;
+    color: #fff;
+}
+
+.accordion:hover ::after ,.active::after {
+    color: #fff !important;
+}
+
+.accordion:hover .accordion:after {
+    color: #fff;
+}
+
+.accordion:hover::after {
+    color: #fff;
+}
+.panel p {
+    color: #101010;
+    text-align: left;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 40px;
+    padding: 30px 0px;
+}
+.slideHead.tabprise {
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* -----Banner----- */
+.banr {
+    padding: 50px;
+    border-radius: 24px;
+    background: #2A9DD7;
+}
+section.maxScreen.bootm {
+    margin-bottom: 100px;
+}
+
+.banr h3 ,.banr p {
+    color: #fff;
+}
+
+.links.banr a {
+    background: #fff;
+    color: #000;
+}
+
+.banr .slideHead {
+    opacity: 1;
+    width: 50%;
+    margin: 0 auto;
+}
+.banr .slideHead h3 span {
+    font-family: Playfair Display;
+    font-style: italic;
+    color: #FFF;
+}
+section.maxScreen.bootm {
+    text-align: center;
+}
+
+section.maxScreen.bootm img {
+    width: 35%;
+}
+/* ------contacts------- */
+
+.contsDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.itemDiv {
+    margin: 10px;
+    border-radius: 4px;
+    background: #F5F7F8;
+    width: 33%;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 30px;
+}
+
+.textcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textcon p {
+    width: 40%;
+    color: #101010;
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+}
+
+/* ------footer----- */
+
+.sepertr {
+    height: 1px;
+    opacity: 0.3;
+    background: #101010;
+}
+
+.social_copyright {
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social svg {
+    margin: 0px 10px;
+}
+
+/* ''''''Testimonials''''''' */
+section.maxScreen.testimonials {
+    max-width: 100%;
+    padding: 0;
+}
+.itemTesti {
+    margin: 0px 20px;
+    padding: 30px;
+}
+
+.flexitemTesti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemTesti p {
+    padding: 17px 17px;
+    border-left: 3px solid #2a9dd7;
+    color: #101010;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.itemTesti.slick-slide {
+    box-shadow: none ;
+    border-radius: 15px;
+    background: #F5F7F8;
+}
+.testimonialsMain.slick-initialized.slick-slider {
+    margin: 100px 0px;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block !important;
+       width: 10% !important;
+    height: 4px !important;
+
+    background: #F5F7F8;
+    margin: 0 0px !important;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+}   
+  li.slick-active {
+    background: #2a9dd7;
+}
+  .slick-dots li button {
+    font-size: 0 !important;
+    line-height: 0;
+    display: none !important;
+    /* width: 100%; */
+    height: 36px;
+    /* padding: 5px; */
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background: transparent !important;
+}
+.slick-dots {
+    position: absolute !important;
+    display: flex !important;
+    width: 100% !important;
+    justify-content: center !important;
+    bottom: -90px !important;
+  }
+
+  @media only screen and (max-width:1300px) {
+    h2 {
+        font-size: 85px;
+    }
+    
+    .left h2 span {
+        font-size: 85px;
+    }
+    
+    .contentt span {
+        font-size: 25px;
+    }
+    
+    .contentt dd {
+        font-size: 25px;
+    }
+    
+    .contentt dl {
+        font-size: 25px;
+    }
+    
+    .items.Service img {
+        width: 80px;
+        top: -28px;
+        right: 17px;
+    }
+    
+    .items.Service {
+        padding: 30px 40px;
+    }
+
+    .banr .slideHead {width: 100%;}
+    
+    .slideHead h3 {
+        font-size: 45px;
+    }
+    
+    .itemDiv {
+        width: 40%;
+    }
+    
+    .contsDiv {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .slideHead h3 span {
+        font-size: 45px;
+    }
+  }
+  @media only screen and (max-width:767px) {
+    .tab {
+        width: auto;
+    }
+    
+    h2 {
+        font-size: 47px;
+        margin-bottom: 24px;
+    }
+    
+    .maxScreen {
+        padding: 20px;
+    }
+    
+    .button_Cus a {
+        font-size: 10px;
+        padding: 20px 20px;
+    }
+    
+    .left h2 span {
+        font-size: 47px;
+    }
+    
+    .experinceImage {
+        display: block;
+        text-align: center;
+    }
+    
+    .flexRight {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 35px;
+    }
+    
+    .serviceFlex {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    
+    .items.Service {
+        width: 42%;
+        padding: 38px 25px;
+        margin-bottom: 35px;
+    }
+    
+    .slideHead {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .itemAccor {
+        width: 100%;
+    }
+    
+    .panel {
+        padding: 0;
+    }
+    
+    .banr {
+        padding: 35px;
+    }
+    
+    .itemDiv {
+        width: 45%;
+        margin: 5px;
+        padding: 0px 17px;
+    }
+    
+    .flexLeft svg {/* width: 159px; */}
+    
+    .flexLeft {}
+    
+    .flexRight p {
+        margin: 0px;
+    }
+    
+    .items.Service img {
+        width: 50px;
+        top: -19px;
+    }
+    
+    .slideHead.tabprise a {
+        font-size: 35px;
+    }
+    
+    .social_copyright {
+        display: block;
+        text-align: center;
+    }
+    
+    .social {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .tab button {
+        padding: 3px 5px;
+        font-size: 16px;
+    }
+    
+    .tab button.active {
+        font-size: 14px;
+        padding: 20px 20px;
+    }
+    
+    .tab {
+        justify-content: space-between;
+    }
+    
+    .tabcontent p {
+        width: 100%;
+        margin: 40px 0px;
+    }
+    
+    section.maxScreen.bootm img {
+        width: 80%;
+    }
+    
+    section.maxScreen.bootm {
+        margin: 50px 0px;
+    }
+    
+    .testimonialsMain.slick-initialized.slick-slider {
+        margin: 50px 0px;
+    }
+    
+    .slick-dots {
+        bottom: -45px !important;
+    }
+    
+    .tab button {
+        margin: 14px 14px;
+    }
+    img.right {
+        display: none;
+    }
+    
+    img.left {
+        display: none;
+    }
+    .contentt dd {
+        font-size: 20px;
+    }
+
+  }
